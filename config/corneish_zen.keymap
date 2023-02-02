@@ -19,7 +19,7 @@
 
         gui {
             bindings = <&kp LCMD>;
-            key-positions = <36 37>;
+            key-positions = <37 38>;
         };
     };
 };
@@ -50,13 +50,13 @@
 // | ESC | NUM |PSCRN| SLCK|PAUSE| F13 |   |  =  |  7  |  8  |  9  |  -  |BKSP |
 // |     | CAPS| INS | HOME|PG_UP| F14 |   |  *  |  4  |  5  |  6  |  +  |  *  |
 // |LSHFT| CAL | DEL | END |PG_DN| F15 |   |  :  |  1  |  2  |  3  |  /  |ENTER|
-//                   |RCTRL| ALT | SPC |   |     |  0  |  .  |
+//                   |RCTRL| ALT | SPC |   |  0  |  .  |     |
 // -----------------------------------------------------------------------------
 			bindings = <
-   &kp ESC    &kp KP_NUM &kp PSCRN &kp SLCK  &kp PAUSE_BREAK  &kp F13    &kp KP_EQUAL     &kp KP_N7  &kp  KP_N8  &kp KP_N9 &kp KP_MINUS  &kp BSPC
-   &trans     &kp CAPS   &kp INS   &kp HOME  &kp PG_UP        &kp F14    &kp KP_ASTERISK  &kp KP_N4  &kp KP_N5  &kp KP_N6 &kp KP_PLUS   &kp KP_ASTERISK
-   &kp LSHFT  &kp K_CALC &kp DEL   &kp END   &kp PG_DN        &kp F15    &kp COLON        &kp KP_N1  &kp KP_N2  &kp KP_N3 &kp KP_DIVIDE &kp ENTER
-				   &kp LCTRL &kp LALT        &kp SPACE                   &trans           &kp KP_N0  &kp KP_DOT
+   &kp ESC    &kp KP_NUM &kp PSCRN &kp SLCK  &kp PAUSE_BREAK  &kp F13    &kp KP_EQUAL     &kp KP_N7   &kp  KP_N8  &kp KP_N9 &kp KP_MINUS  &kp BSPC
+   &trans     &kp CAPS   &kp INS   &kp HOME  &kp PG_UP        &kp F14    &kp KP_ASTERISK  &kp KP_N4   &kp KP_N5  &kp KP_N6 &kp KP_PLUS   &kp KP_ASTERISK
+   &kp LSHFT  &kp K_CALC &kp DEL   &kp END   &kp PG_DN        &kp F15    &kp COLON        &kp KP_N1   &kp KP_N2  &kp KP_N3 &kp KP_DIVIDE &kp ENTER
+				   &kp LCTRL &kp LALT        &kp SPACE                   &kp KP_N0        &kp KP_DOT  &trans
 			>;
 		};
 
