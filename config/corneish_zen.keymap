@@ -3,15 +3,27 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
-  chosen {
-    zmk,matrix_transform = &default_transform;
-    //zmk,matrix_transform = &five_column_transform;
-  };
+    chosen {
+        zmk,matrix_transform = &default_transform;
+        //zmk,matrix_transform = &five_column_transform;
+    };
 };
 
 &sl {
 	release-after-ms = <500>;
 };
+
+/ {
+    combos {
+        compatible = "zmk,combos";
+
+        gui {
+            bindings = <&kp LCMD>;
+            key-positions = <36 37>;
+        };
+    };
+};
+
 
 / {
 	keymap {
