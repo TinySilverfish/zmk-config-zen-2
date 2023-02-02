@@ -17,12 +17,12 @@
     combos {
         compatible = "zmk,combos";
 
-        GUI {
+        gui {
             bindings = <&kp RGUI>;
             key-positions = <36 37>;
         };
 
-		BSForLeft {
+		bsforleft {
 			bindings = <&kp BSPC>;
 			key-positions = <4 5>;
 		};
