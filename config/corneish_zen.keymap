@@ -110,10 +110,10 @@
 //	     |LCTRL|LALT |     |    |     |SPACE|     |
 
 			bindings = <
-				&trans     &kp C   &kp D   &kp E   &kp N3  &kp F3    &kp F2   &kp N2     &kp W    &kp S   &kp X      &trans
+				&none      &kp C   &kp D   &kp E   &kp N3  &kp F3    &kp F2   &kp N2     &kp W    &kp S   &kp X      &none 
 				&kp SPACE  &kp V   &kp F   &kp R   &kp N4  &kp F4    &kp F1   &kp N1     &kp Q    &kp A   &kp Z      &kp LALT
-				&trans     &kp B   &kp G   &kp T   &kp N5  &kp F5    &kp ESC  &kp GRAVE  &kp TAB  &trans  &kp LSHFT  &kp LCTRL
-										   &trans  &trans  &tog 4    &tog 4   &trans  &trans
+				&none      &kp B   &kp G   &kp T   &kp N5  &kp F5    &kp ESC  &kp GRAVE  &kp TAB  &none   &kp LSHFT  &kp LCTRL
+										   &none   &none   &tog 4    &tog 4   &none   &none 
 			>;
 		};
 	};
