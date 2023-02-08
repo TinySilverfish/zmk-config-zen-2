@@ -29,7 +29,7 @@
 
 		enterforleft {
 			bindings = <&kp ENTER>;
-			key-positions = <30 31>;
+			key-positions = <29 30>;
 		};
     };
 };
