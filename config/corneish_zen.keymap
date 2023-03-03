@@ -19,7 +19,7 @@
 
         gui {
             bindings = <&kp RGUI>;
-            key-positions = <36 37>;
+            key-positions = <37 38>;
         };
 
 		bsforleft {
@@ -29,7 +29,7 @@
 
 		enterforleft {
 			bindings = <&kp ENTER>;
-			key-positions = <27 28>;
+			key-positions = <28 29>;
 		};
     };
 };
