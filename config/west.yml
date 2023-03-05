@@ -17,7 +17,7 @@ manifest:
   projects:
     - name: zmk
       remote: TinySilverfish
-      revision: TinySilverfish/zen-v2  # custom branch name
+      revision: TinySilverfish/zen-v2+mouse  # custom branch name
       import: app/west.yml
   self:
     path: config
