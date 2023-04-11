@@ -118,7 +118,7 @@
 			bindings = <
 				&kp LALT   &kp C   &kp D   &kp E   &kp N3  &kp F3    &kp F2   &kp N2     &kp W    &kp S      &kp X      &kp RGUI
 				&kp SPACE  &kp V   &kp F   &kp R   &kp N4  &kp F4    &kp F1   &kp N1     &kp Q    &kp A      &kp Z      &kp LALT
-				&none      &kp B   &kp G   &kp T   &kp N5  &kp F5    &kp ESC  &kp GRAVE  &kp TAB  &kp GRAVE  &kp LSHFT  &kp LCTRL
+				&kp ENTER  &kp B   &kp G   &kp T   &kp N5  &kp F5    &kp ESC  &kp GRAVE  &kp TAB  &kp GRAVE  &kp LSHFT  &kp LCTRL
 							   &kp U   &kp I   &tog 4    &tog 4   &none   &none 
 			>;
 		};
