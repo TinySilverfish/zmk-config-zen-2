@@ -12,8 +12,8 @@
 
 manifest:
   remotes:
-    - name: TinySilverfish
-      url-base: https://github.com/TinySilverfish
+    - name: caksoylar
+      url-base: https://github.com/caksoylar
   projects:
     - name: zmk
       remote: caksoylar
